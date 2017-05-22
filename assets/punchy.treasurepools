@@ -1,0 +1,9 @@
+{
+"punchySlain" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1, "item" : "craftablepunchy"}
+      ]
+    } ]
+  ]
+}

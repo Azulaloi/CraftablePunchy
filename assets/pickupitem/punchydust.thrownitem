@@ -1,0 +1,29 @@
+{
+  "itemName" : "punchydust",
+  "price" : 10,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "punchydustcanister.png",
+  "image" : "punchydustcanister.png",
+  "shortdescription" : "Punchy Sedative Canister",
+  "description" : "This will sedate a punchy, allowing it to be collected.",
+
+  "ammoUsage" : 0,
+  
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "punchydust",
+  "projectileConfig" : {
+    "periodicActions" : [
+       {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/toy_throw1.ogg" ]
+      }
+    ]
+  }
+}

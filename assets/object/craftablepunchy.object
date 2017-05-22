@@ -1,0 +1,54 @@
+{
+  "objectName" : "craftablepunchy",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "description" : "A sleeping punchy. It needs the kiss of a maiden to awaken.",
+  "shortdescription" : "Inert Punchy",
+  "race" : "generic",
+
+  "apexDescription" : "A sleeping punchy.",
+  "avianDescription" : "A resting punchy.",
+  "floranDescription" : "Thisss pillow has eyesss.",
+  "glitchDescription" : "Intrigued. I wonder if I can wake it up.",
+  "humanDescription" : "It seems like it's sleeping.",
+  "hylotlDescription" : "A target dummy of Hylotl design. It's sleeping.",
+  "novakidDescription" : "This guy would make a handy shooting target.",
+
+  "inventoryIcon" : "/assets/object/craftablepunchy.png",
+  "orientations" : [
+    {
+      "image" : "/assets/object/craftablepunchy.png",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "/assets/object/craftablepunchy.png",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "craftablepunchy.animation",
+   "animationParts" : {
+    "punchy" : "craftablepunchy.png"
+   },
+  
+  "scripts" : ["craftablepunchy.lua"],
+  "scriptDelta" : 60,
+
+  "spawnMonster" : "punchy",
+  "parameters" : {"persistent" : true},
+  "spawnOffset" : [1, 0.5]
+}
