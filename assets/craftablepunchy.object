@@ -49,6 +49,6 @@
   "scriptDelta" : 60,
 
   "spawnMonster" : "punchy",
-  "parameters" : {"baseParameters" : {"persistent" : true}},
+  "parameters" : {"persistent" : true},
   "spawnOffset" : [1, 0.5]
 }
