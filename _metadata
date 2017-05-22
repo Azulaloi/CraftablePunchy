@@ -1,6 +1,13 @@
 {
   "author" : "Azulaloi",
-  "description" : "Adds a craftable punchy and an item to pick it back up.",
+  "description" : "Ever wanted a punchy to test your damage, but didn't want to find a Hylotl city to get one? This mod adds a craftable punchy!
+
+Craft the Inert Punchy at the spinning wheel, place it, then animate it by hovering over the punchy with your cursor and pressing the activate key.
+To retrieve any punchy, craft the Punchy Sedative Canister at the spinning wheel, then hit the animate punchy with the gas it emits. It will turn back into an Inert Punchy, which will be dropped on the ground as an item.
+
+All recipes are known by default.
+
+If you like this mod, you might like my other mod, Expanded Magnorbs.",
   "friendlyName" : "Craftable Punchy",
   "link" : "steam://url/CommunityFilePage/931058996",
   "name" : "az-craftablepunchy",
