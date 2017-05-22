@@ -1,7 +1,9 @@
 {
-  "name" : "az-craftablepunchy",
-  "friendlyName" : "Craftable Punchy",
-  "description" : "Adds a simple craftable punchy for damage testing purposes.",
   "author" : "Azulaloi",
-  "version" : "0.0"
+  "description" : "Adds a craftable punchy and an item to pick it back up.",
+  "friendlyName" : "Craftable Punchy",
+  "link" : "steam://url/CommunityFilePage/931058996",
+  "name" : "az-craftablepunchy",
+  "steamContentId" : "931058996",
+  "version" : "1.0"
 }
